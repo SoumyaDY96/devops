@@ -4,7 +4,6 @@ useradd -s /sbin/nologin -r -g prometheus prometheus
 
 apt update -y
 
-
 if [ ! $(dpkg-query -s wget | grep -ie 'ok installed') ]; then
   apt install wget -y
 fi
