@@ -1,0 +1,3 @@
+Download the file in any directory of your choice
+Use "chmod +x *filename*" to make it executable
+Run the script with sudo privilege
